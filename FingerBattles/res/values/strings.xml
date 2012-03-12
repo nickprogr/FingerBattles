@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Finger Battles</string>
+    <string name="score">Score </string>
+    <string name="time">Time </string>
+    <string name="start">Start !</string>
+    <string name="welcome">Welcome !</string>
+    <string name="choose">Select the duration of the game :</string>
+    <string name="s60">60 seconds</string>
+    <string name="s120">120 seconds</string>
+    <string name="exit">Exit Game</string>
+    <string name="restart">Restart</string>
+    <string name="timeup">Time\'s Up !</string>
+    <string name="scoreMsg">Your score is :</string>
+    <string name="playagain">Play Again</string>
+    <string name="credits">Credits</string>
+    <string name="startG">Start Game</string>
+    <string name="moto">Your fingers will get on fire !</string>
+    <string name="back">Back</string>
+    <string name="credit1">Nikolaos Promponas , 3070172</string>
+    <string name="credit2">Nikolaos Sakiotis  , 3070153</string>
+    <string name="credit3">HCI Course\nAUEB 2012</string>
+    <string name="main_menu">Main Menu</string>
+
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout android:id="@+id/frameLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="left">
+
+			<ImageView
+			    android:id="@+id/imageView1"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="0.96"
+			    android:scaleType="fitXY"
+			    android:src="@drawable/menu_bg_wood" />
+
+			<TextView
+			    android:id="@+id/textView1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentTop="true"
+			    android:layout_centerHorizontal="true"
+			    android:layout_marginTop="10dp"
+			    android:shadowColor="#333333"
+			    android:shadowRadius="2.0"
+			    android:text="@string/timeup"
+			    android:textColor="#ffffff"
+			    android:textSize="30sp"
+			    android:textStyle="bold"
+			    android:typeface="sans" />
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="370dp"
+            android:layout_gravity="bottom" >
+        
+        	<ImageView
+            	android:id="@+id/imageView1"
+            	android:layout_width="match_parent"
+            	android:layout_height="fill_parent"
+            	android:layout_weight="0.96"
+            	android:scaleType="fitXY"
+            	android:src="@drawable/surface" />
+
+        	<!--<Spinner
+        	    android:id="@+id/spinner1"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentTop="true"
+        	    android:layout_alignRight="@+id/imageView1"
+        	    android:layout_marginRight="15dp"
+        	    android:layout_marginTop="40dp"
+        	    android:layout_toRightOf="@+id/textView2" />-->
+
+        	<TextView
+        	    android:id="@+id/yourscore"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentTop="true"
+        	    android:layout_centerHorizontal="true"
+        	    android:layout_marginTop="49dp"
+        	    android:text="@string/scoreMsg"
+        	    android:textColor="#ffffff"
+        	    android:textSize="20sp"
+        	    android:textStyle="bold"
+        	    android:typeface="sans" />
+
+        	<Button
+        	    android:id="@+id/playAgainButton"
+        	    android:layout_width="200dp"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentBottom="true"
+        	    android:layout_centerHorizontal="true"
+        	    android:layout_marginBottom="114dp"
+        	    android:onClick="playAgain"
+        	    android:text="@string/playagain"
+        	    android:visibility="invisible" />
+        	
+        	
+
+        	<TextView
+        	    android:id="@+id/scoreEnd"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentBottom="true"
+        	    android:layout_centerHorizontal="true"
+        	    android:layout_marginBottom="235dp"
+        	    android:layout_below="@+id/yourscore"
+        	    android:layout_marginTop="24dp"
+        	    android:shadowColor="#333333"
+        	    android:shadowRadius="2.0"
+        	    android:text="0"
+        	    android:textColor="#ffffff"
+        	    android:textSize="30sp"
+        	    android:textStyle="bold"
+        	    android:typeface="sans" />
+
+        	<Button
+        	    android:id="@+id/toMainMenuButton"
+        	    android:layout_width="200dp"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentBottom="true"
+        	    android:layout_centerHorizontal="true"
+        	    android:layout_marginBottom="53dp"
+        	    android:onClick="toMainMenu"
+        	    android:text="@string/main_menu"
+        	    android:visibility="invisible" />
+
+	    </RelativeLayout>
+
+    </FrameLayout>    
+    

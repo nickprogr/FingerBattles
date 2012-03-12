@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frameLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="left" >
+
+			<ImageView
+			    android:id="@+id/topBg"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="0.96"
+			    android:scaleType="fitXY"
+			    android:src="@drawable/menu_bg_wood" />
+
+			<RelativeLayout
+			    android:id="@+id/relativeLayout3"
+			    android:layout_width="110dp"
+                android:layout_height="match_parent"
+			    android:layout_alignParentLeft="true"
+			    android:layout_alignParentTop="true">
+			    
+			    <TextView
+			        android:id="@+id/clockLabel"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:text="@string/time"
+			        android:textColor="#ffffff"
+			        android:textSize="20sp"
+			        android:textStyle="bold"
+			        android:typeface="sans" />
+			    
+			    <TextView
+			        android:id="@+id/clock"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentLeft="true"
+			        android:layout_below="@+id/clockLabel"
+			        android:text="0"
+			        android:textColor="#ffffff"
+			    	android:textSize="25sp"
+			    	android:textStyle="bold"
+			    	android:typeface="sans" />
+
+			    
+			    
+			</RelativeLayout>
+
+			    
+			<RelativeLayout
+			    android:id="@+id/relativeLayout4"
+			    android:layout_width="110dp"
+			    android:layout_height="match_parent"
+			    android:layout_alignParentRight="true"
+			    android:layout_alignParentTop="true" >
+			    
+			    <TextView
+			        android:id="@+id/scoreLabel"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:text="@string/score"
+			        android:textColor="#ffffff"
+			        android:textSize="20sp"
+			        android:textStyle="bold"
+			        android:typeface="sans" />
+
+			    <TextView
+			        android:id="@+id/score"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:layout_below="@+id/scoreLabel"
+			        android:text="000"
+			        android:textColor="#ffffff"
+			        android:textSize="25sp"
+			        android:textStyle="bold"
+			        android:typeface="sans" />
+			    
+			</RelativeLayout>
+
+			<RelativeLayout
+			    android:id="@+id/relativeLayoutCen"
+			    android:layout_width="100dp"
+			    android:layout_height="match_parent"
+			    android:layout_alignParentTop="true"
+			    android:layout_toLeftOf="@+id/relativeLayout4" >
+
+				<ImageView
+				    android:id="@+id/trueFalse"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentTop="true"
+				    android:layout_centerHorizontal="true"
+				    android:layout_centerVertical="true"
+				    android:layout_marginTop="4dp"
+				    android:src="@drawable/tick1"
+				    android:visibility="invisible" />
+
+			</RelativeLayout>
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="370dp"
+            android:layout_gravity="bottom" >
+        
+        	<ImageView
+        	    android:id="@+id/surface"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="fill_parent"
+        	    android:layout_weight="0.96"
+        	    android:scaleType="fitXY"
+        	    android:src="@drawable/surface" />
+
+        	<FrameLayout
+        	    android:id="@+id/frameLayout1"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_centerHorizontal="true"
+        	    android:layout_centerVertical="true" >
+
+        	    <ImageView
+        	        android:id="@+id/card"
+        	        android:layout_width="300dp"
+        	        android:layout_height="300dp"
+        	        android:src="@drawable/card_killself"/>
+
+        	</FrameLayout>
+
+	    </RelativeLayout>
+
+    </FrameLayout>    
+    
